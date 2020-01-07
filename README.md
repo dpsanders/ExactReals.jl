@@ -6,6 +6,7 @@
 
 
 This is a package for performing exact real arithmetic in Julia.
+The implementation uses a fast Cauchy sequence to approximate each real number.
 
 ## Installation
 
