@@ -7,12 +7,24 @@
 
 This is a package for performing exact real arithmetic in Julia.
 
+## Installation
+
+To install the package, do
+
+```jl
+using Pkg
+Pkg.add("https://github.com/dpsanders/ExactReals.jl")
+```
+
 ## Usage
 
 Exact real numbers may be created from integers and rationals.
 Basic arithmetic (`+`, `-` and `*`) is implemented:
 
 ```jl
+
+julia> using ExactReals
+
 julia> ExactReal(3)
 ExactReal in 2.9999999999999996..3.0000000000000004
 
