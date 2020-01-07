@@ -12,8 +12,9 @@ This is a package for performing exact real arithmetic in Julia.
 To install the package, do
 
 ```jl
-using Pkg
-Pkg.add("https://github.com/dpsanders/ExactReals.jl")
+julia> using Pkg
+
+julia> Pkg.add("https://github.com/dpsanders/ExactReals.jl")
 ```
 
 ## Usage
